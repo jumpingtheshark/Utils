@@ -2,11 +2,12 @@
 using System.IO;
 using System.Data;
 using System.Collections.Generic;
+using System;
 
 
 namespace Utils
 {
-    class Utils
+   public class Utils
     {
 
 
@@ -33,19 +34,32 @@ namespace Utils
        
         //todo 
 
-        public List<string[]> csv2List1(string path)
+        public List<string[]> csv2ListStringArray(string path)
         {
             return new List<string[]>();
 
         }
 
 
-        public List<List<string>> csv2List2 (string path)
+        public List<List<string>> csv2ListList (string path)
         {
             return new List<List<string>>();
 
         }
 
 
+        // todo 
+        public  string datestring2string (string s)
+        {
+
+            return "";
+        }
+
+        public DateTime datestring2DateTime (string s)
+        {
+
+            return new DateTime();
+
+        }
     }
 }
