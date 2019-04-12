@@ -36,8 +36,21 @@ namespace Utils
 
         public List<string[]> csv2ListStringArray(string path)
         {
-            return new List<string[]>();
 
+            string[] file = readAllLines(path);
+
+             var l = new List<string[]>();
+         
+
+            foreach (string line in file )
+            {
+
+                l.Add(line.Split(','));
+
+            }
+
+
+            return l;
         }
 
 
