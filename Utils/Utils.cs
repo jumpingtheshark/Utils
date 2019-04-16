@@ -89,5 +89,23 @@ namespace Utils
          
 
         }
+
+        //todo
+        public string removeCommaFromDoubleQuotes (string s)
+        {
+            //get the index of the first double quote
+            // get the index of the secon double quote
+            // and remove commas from between the two
+            // only works with a single set of quotes
+
+            int s1 = s.IndexOf('"');
+            int s2 = s.LastIndexOf('"');
+            //go through all the characters inside string and get the 
+
+            
+
+            return "";
+
+        }
     }
 }
