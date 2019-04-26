@@ -4,10 +4,11 @@ using System.Data;
 using System.Collections.Generic;
 using System;
 
+// TODO: Unit testing
 
 namespace Utils
 {
-   public class Utils
+   public class UtilsClass
     {
 
 
@@ -25,41 +26,7 @@ namespace Utils
         }
 
 
-        //todo
-        public DataTable csv2DT(string path)
-        {
-            return new DataTable();
-
-        }
        
-        //todo 
-
-        public List<string[]> csv2ListStringArray(string path)
-        {
-
-            string[] file = readAllLines(path);
-
-             var l = new List<string[]>();
-         
-
-            foreach (string line in file )
-            {
-
-                l.Add(line.Split(','));
-
-            }
-
-
-            return l;
-        }
-
-
-        public List<List<string>> csv2ListList (string path)
-        {
-            return new List<List<string>>();
-
-        }
-
 
         // takes mm/dd/yyyy and gives back yyyymmdd
         public  string datestring2string (string s)
