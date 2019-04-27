@@ -9,10 +9,11 @@ using System;
 
 namespace Utils
 {
+
+    // todo: unit tests
     class CSVHelper
     {
-
-        public Utils.UtilsClass utils = new Utils.UtilsClass();
+   
         
         //todo
         public DataTable csv2DT(string path)
@@ -37,12 +38,13 @@ namespace Utils
         }
 
 
-
-
         public List<string[]> csv2ListStringArray(string path)
         {
 
-            string[] file = utils.readAllLines(path);
+            Filer f = new Filer();
+
+
+            string[] file = f.readAllLines(path);
 
             var l = new List<string[]>();
 

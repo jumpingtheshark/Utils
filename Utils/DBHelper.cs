@@ -7,6 +7,9 @@ using System.Data.SqlClient;
 
 namespace Utils
 {
+
+    // todo: unit tests
+
     public class DBHelper
     {
         public string _constring = "";

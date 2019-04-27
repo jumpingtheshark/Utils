@@ -8,3 +8,4 @@ C:\Users\Michael\source\repos\Utils\Utils\obj\Debug\netcoreapp2.2\Utils.Assembly
 C:\Users\Michael\source\repos\Utils\Utils\bin\Debug\netcoreapp2.2\Utils.pdb
 C:\Users\Michael\source\repos\Utils\Utils\obj\Debug\netcoreapp2.2\Utils.dll
 C:\Users\Michael\source\repos\Utils\Utils\obj\Debug\netcoreapp2.2\Utils.pdb
+C:\Users\Michael\source\repos\Utils\Utils\obj\Debug\netcoreapp2.2\Utils.csprojAssemblyReference.cache
