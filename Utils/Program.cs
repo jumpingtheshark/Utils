@@ -8,15 +8,15 @@ namespace Utils
         static void Main(string[] args)
         {
 
-            string str = "He said to me, \"Hello World\" , How are you?";
-            Stringer s = new Stringer();
-            XY_int xy = s.delimIntervalLengthRight(str, "\"", "\"", 2, ",");
-            string str2 = str.Substring(xy.x, xy.y);
-            string str3 = str.Remove(xy.x, xy.y);
-            Console.WriteLine("{"+str2+ "}");
-            Console.WriteLine(str3);
+            string str = "He said to me, \"Hello, World\" , How are you?";
 
-            string[] arr = str3.Split(',');
+            str = "DEBIT,03 / 11 / 2019,\"BEST BUY #313, EVANSTON IL                    03/11\",-21.99,DEBIT_CARD,381.06,,";
+            Stringer s = new Stringer();
+
+          string s2=  s.removeCommaFromDoubleQuotes(str, "!@#");
+            Console.WriteLine(str);
+            Console.Write(s2);
+
             Console.ReadLine();
            
             

@@ -4,15 +4,11 @@ using System.Text;
 
 namespace Utils.DataTypes
 {
-    class XY_int
+    class Interval
     {
         public int x;
         public int y;
 
 
-
     }
-
-   
-    
 }
