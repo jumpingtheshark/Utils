@@ -3,6 +3,7 @@ using System.IO;
 using System.Data;
 using System.Collections.Generic;
 using System;
+using System.Xml;
 
 
 namespace Utils
@@ -22,6 +23,9 @@ namespace Utils
             string[] lines = File.ReadAllLines(path);
             return lines;
         }
+
+
+        
 
 
     }
