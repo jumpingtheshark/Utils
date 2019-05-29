@@ -9,7 +9,7 @@ using System.Collections.Generic;
 
  */
 
-namespace Utils
+ namespace Utils
 {
     class Program
     {
@@ -44,7 +44,7 @@ namespace Utils
             l.Add("owner1AddrZip");
             l.Add("deliveryType");
             l.Add("sih1");
-             l.Add("sih2")
+            l.Add("sih2");
             l.Add("sih3");
             l.Add("eesFromCustomer");
             l.Add("deqCertDate");
@@ -58,11 +58,6 @@ namespace Utils
             l.Add("registrationActionId");
             l.Add("useTypeId");
           
-
-
-
-
-
 
 
             Dictionary<string, string> dct = xmp.getManyValues(l);

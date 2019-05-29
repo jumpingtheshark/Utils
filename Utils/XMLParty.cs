@@ -7,7 +7,7 @@ using System.Xml;
 
 namespace Utils
 {
-    class XMLParty
+    public class XMLParty
     {
         //for now we'll work with one file at a time
         public string XML;
