@@ -22,23 +22,12 @@ namespace Utils
 
         }
         //strings inside double quotes don't get parsed in this function
-        public List<string[]> csv2ListStringArrayDoubleQuotes(string path)
-        {
-            //nothing inside double quotes gets parsed.  
-            // so, first get part inside double quotes, and then do the rest
-            // you need to find this sequence { ," } and then return the substring till the closing {"} as a 
-            // whole and keeps its position too... 
-            // so you have to go in and count the commas or something.. sounds complicated
-            // maybe for now it'll be easier just to get rid of the commas inside the descriptions altogether
-
-            var l = new List<string[]>();
-            return l;
+       
 
 
-        }
 
 
-        public List<string[]> csv2ListStringArray(string path)
+        public static List<string[]> csv2ListStringArray(string path)
         {
 
             Filer f = new Filer();
@@ -48,11 +37,25 @@ namespace Utils
 
             var l = new List<string[]>();
 
-
+			int i = 0;
+			string line2;
+			string[] line2arr;
             foreach (string line in file)
             {
 
-                l.Add(line.Split(','));
+            if (line.IndexOf("\"") == -1)
+				l.Add(line.Split(','));
+			else
+				{
+					line2 = Stringer.removeCharFromInterval(line, ',', '^');
+					line2arr = line2.Split(',');
+					for (i=0; i< line2arr.Length; i++)
+						line2arr[i] = Stringer.removeCharFromInterval(line2arr[i], '^', ',');
+					l.Add(line2arr);
+
+					
+
+				}
 
             }
 

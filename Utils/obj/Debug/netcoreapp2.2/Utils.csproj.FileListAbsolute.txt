@@ -8,3 +8,13 @@ C:\Users\Michael\source\repos\Utils\Utils\obj\Debug\netcoreapp2.2\Utils.Assembly
 C:\Users\Michael\source\repos\Utils\Utils\bin\Debug\netcoreapp2.2\Utils.pdb
 C:\Users\Michael\source\repos\Utils\Utils\obj\Debug\netcoreapp2.2\Utils.dll
 C:\Users\Michael\source\repos\Utils\Utils\obj\Debug\netcoreapp2.2\Utils.pdb
+C:\a1\Utils\Utils\bin\Debug\netcoreapp2.2\Utils.deps.json
+C:\a1\Utils\Utils\bin\Debug\netcoreapp2.2\Utils.runtimeconfig.json
+C:\a1\Utils\Utils\bin\Debug\netcoreapp2.2\Utils.runtimeconfig.dev.json
+C:\a1\Utils\Utils\bin\Debug\netcoreapp2.2\Utils.dll
+C:\a1\Utils\Utils\bin\Debug\netcoreapp2.2\Utils.pdb
+C:\a1\Utils\Utils\obj\Debug\netcoreapp2.2\Utils.csprojAssemblyReference.cache
+C:\a1\Utils\Utils\obj\Debug\netcoreapp2.2\Utils.AssemblyInfoInputs.cache
+C:\a1\Utils\Utils\obj\Debug\netcoreapp2.2\Utils.AssemblyInfo.cs
+C:\a1\Utils\Utils\obj\Debug\netcoreapp2.2\Utils.dll
+C:\a1\Utils\Utils\obj\Debug\netcoreapp2.2\Utils.pdb
