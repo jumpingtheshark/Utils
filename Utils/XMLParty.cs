@@ -15,7 +15,7 @@ namespace Utils
 
         // you have to use the same stretch of text
         // and if you want something else, just make a new class
-     public   XMLParty (string targetPath)
+      public   XMLParty (string targetPath)
         {
          
             Filer f = new Filer();

@@ -11,7 +11,7 @@ namespace Utils
 {
 
     // todo: unit tests
-    class CSVHelper
+public     class CSVHelper
     {
    
         

@@ -6,12 +6,12 @@ namespace Utils
 {
 
     //todo unit tests
-    class Dater
+   public class Dater
     {
 
 
         // takes mm/dd/yyyy and gives back yyyymmdd
-        public string datestring2string(string s)
+        public static string datestring2string(string s)
         {
 
             string[] sarray = s.Split('/');
@@ -25,7 +25,7 @@ namespace Utils
 
         }
 
-        public DateTime datestring2DateTime(string s)
+        public static DateTime datestring2DateTime(string s)
         {
             string[] sarray = s.Split('/');
             int month, date, year;

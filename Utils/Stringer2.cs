@@ -27,7 +27,7 @@ namespace Utils
 
 
 
-        // todo write a good description otherwise it will be confusing as fuck
+        // todo write a good description otherwise it will be confusing as heck
         public Interval delimIntervalLengthRight(string s, string left, string right, int offset, string right2)
         {
             Interval xy = new Interval();
