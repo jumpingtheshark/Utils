@@ -32,8 +32,9 @@ namespace Utils
             month = Convert.ToInt16(sarray[0]);
             date = Convert.ToInt16(sarray[1]);
             year = Convert.ToInt16(sarray[2]);
+			// let's make all the purchases happen at noon if we don't have the exact hour
 
-            DateTime dt = new DateTime(year, month, date);
+			DateTime dt = new DateTime(year, month, date, 12, 15, 0);
             return dt;
 
 
