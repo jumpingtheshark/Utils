@@ -10,6 +10,21 @@ namespace Utils
     {
 
 
+		public static bool BetweenInclusive (DateTime sdate, DateTime edate,  DateTime target )
+		{
+			if (
+				(edate.Year >= target.Year && edate.Month >= target.Month && edate.Day >= target.Day)
+				&&
+				(sdate.Year <= target.Year && sdate.Month <= target.Month && sdate.Day <= target.Day)
+				)
+				return true;
+			else
+				return false;
+
+
+
+		}
+
         // takes mm/dd/yyyy and gives back yyyymmdd
         public static string datestring2string(string s)
         {
