@@ -21,7 +21,7 @@ namespace Utils
 
 		        {
 
-			 Dictionary<string, string> dnr= Json.dnr("");
+			  Jsoner.dnr("");
             
            
 
