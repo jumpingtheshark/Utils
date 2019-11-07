@@ -1,0 +1,17 @@
+﻿{
+  "Name":"Denu",
+  "Contact":12345678
+}
+
+
+
+{
+  "bills": [
+    {
+      "lifetime": "LTF*LIFE TIME MO DUES",
+      "life insurance": "UNITED OF OMAHA   INS PREM",
+      "mortgage": "To Mortgage 9670"
+    }
+  ]
+}
+
