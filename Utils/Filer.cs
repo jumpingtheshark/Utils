@@ -8,16 +8,21 @@ using System.Xml;
 
 namespace Utils
 {
-    class Filer
-    {
+	public class Filer
+	{
+		public static void writeAllText(string path, string text)
+		{
+			File.WriteAllText(path, text);
 
-        public string readAllText(string path)
+		}
+
+        public static string readAllText(string path)
         {
             string s = File.ReadAllText(path);
             return s;
         }
 
-        public string[] readAllLines(string path)
+        public static string[] readAllLines(string path)
         {
 
             string[] lines = File.ReadAllLines(path);

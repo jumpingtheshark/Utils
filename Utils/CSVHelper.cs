@@ -30,10 +30,10 @@ public     class CSVHelper
         public static List<string[]> csv2ListStringArray(string path)
         {
 
-            Filer f = new Filer();
+            
 
 
-            string[] file = f.readAllLines(path);
+            string[] file = Filer.readAllLines(path);
 
             var l = new List<string[]>();
 

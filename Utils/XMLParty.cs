@@ -18,8 +18,8 @@ namespace Utils
       public   XMLParty (string targetPath)
         {
          
-            Filer f = new Filer();
-            string s = f.readAllText(targetPath);
+            
+            string s = Filer.readAllText(targetPath);
             XML = s;
             doc = new XmlDocument();
             doc.LoadXml(XML);
