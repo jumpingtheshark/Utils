@@ -5,14 +5,14 @@ using Newtonsoft.Json;
 
 namespace Utils
 {
-	class Jsoner
+	public class Jsoner
 	{
 
 
-		public static Dictionary<string,string>  dnr(string json)
+		public static Dictionary<string,string>  dnr(string path)
 		{
 		
-			json = Filer.readAllText(@"C:\a1\Utils\Utils\j1.json");
+			var json = Filer.readAllText(path);
 			//Dictionary<string, string> rv = JsonConvert.SerializeObject()
 		return Newtonsoft.Json.JsonConvert.DeserializeObject<Dictionary <string, string>>(json);
 
