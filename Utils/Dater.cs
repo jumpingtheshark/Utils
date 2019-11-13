@@ -55,6 +55,26 @@ namespace Utils
 
         }
 
+		public static string TimeStamp()
+		{
+			var sb = new StringBuilder();
+			string s;
+			sb.Append(DateTime.Now.Year.ToString());
+			
+			sb.Append(DateTime.Now.Month.ToString().PadLeft(2, '0'));
+			sb.Append(DateTime.Now.Day.ToString().PadLeft(2, '0'));
+			s =DateTime.Now.ToString("%h");
+			sb.Append("_");
+			sb.Append(s);
+			sb.Append(DateTime.Now.Minute.ToString().PadLeft(2, '0'));
+			
+
+
+
+			return sb.ToString();
+
+
+		}
 
     }
 }

@@ -21,7 +21,7 @@ namespace Utils
 
 		        {
 
-			var v=  Jsoner.dnr("");
+			Console.WriteLine(Dater.TimeStamp());
             
            
 
